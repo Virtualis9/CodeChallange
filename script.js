@@ -69,5 +69,5 @@ const calculateMostExpensive = (carArray) => {
 calculateAveragePrice(cars);
 calculateOldestCar(cars);
 calculateMostExpensive(cars);
-carList(cars)
+// carList(cars)
 
