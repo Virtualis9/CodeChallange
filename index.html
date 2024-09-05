@@ -4,23 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
-    <script src="script.js"></script>
+    
     <title>Document</title>
 </head>
 <body>
-    <h1>Peacocks Show Room</h1>
+
+    <h1>BidBay</h1>
+
+    <nav>
+        <a href="#">Daily Deals</a>
+        <a href="#">Sell</a>
+        <input placeholder="Search 🔎">
+    </nav>
+    
+    <ul id="list"></ul>
 
     <form id="carForm">
         <h1>sell your car Here</h1><br>
 
-        <label>Enter your Car model here:</label>
+        <label>Make:</label>
+        <input id="makeInput">
+
+        <label>Model:</label>
         <input id="modelInput">
 
-        <label>Enter the age of the car </label>
+        <label>Age:</label>
         <input id="ageInput">
 
-        <label>Enter the price of your car</label>
+        <label>Value:</label>
         <input id="priceInput">
+
+        <button type="button" onclick="sellCar()">Sell Car Now!</button>
     </form>
+
+    <script src="script.js"></script>
 </body>
 </html>
